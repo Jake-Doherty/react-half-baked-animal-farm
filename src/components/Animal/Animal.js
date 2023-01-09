@@ -1,10 +1,11 @@
 import './Animal.css';
+// import animalImage from '../../../public/animals';
 
 export default function Animal(props) {
   return (
     <div className="animal" style={{ top: props.top, left: props.left }}>
-      <h1 className="animal name">{props.name}</h1>
-      <p>{props.type}</p>
+      <h2 className="animal name">{props.name}</h2>
+      <img src={`/animals/${props.type}.svg`} />
       <p>{props.says}</p>
     </div>
   );
