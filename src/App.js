@@ -7,11 +7,9 @@ import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 // import Animal from './components/Animal/Animal';
 
-import background from './background.png';
-
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${background})` }}>
+    <div className="App">
       <Header />
       <Main />
       <Footer />
