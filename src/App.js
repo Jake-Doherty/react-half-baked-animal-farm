@@ -5,10 +5,13 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
+// import Animal from './components/Animal/Animal';
+
+import background from './background.png';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${background})` }}>
       <Header />
       <Main />
       <Footer />
@@ -17,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+//
