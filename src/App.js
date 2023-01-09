@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
+// import Animal from './components/Animal/Animal';
 
 function App() {
   return (
@@ -17,3 +18,5 @@ function App() {
 }
 
 export default App;
+
+//
